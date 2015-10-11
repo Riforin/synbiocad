@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'synbiocad.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'b1fb77c1bd1a7d',
+        'NAME': 'synbiocadbeta',
         'USER': 'b1fb77c1bd1a7d',
         'PASSWORD': '3725f966',
-        'HOST': 'us-cdbr-azure-west-a.cloudapplnet',
+        'HOST': 'us-cdbr-azure-west-c.cloudapp.net',
         'PORT': '3306',
         'OPTIONS': {'ssl': {'ca':'synbiocad/cleardb-ca.cer', 
             'cert':'synbiocad/a7b7d58463ff64-cert.cer', 
